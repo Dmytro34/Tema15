@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Football</title>
+	<style>
+	fieldset{
+	width:350px;
+	}
+	.o:hover{
+	background-color:gray;
+	border:2px solid black;
+	}
+	.w:hover{
+	background-color:silver;
+	color:blue;
+	}
+	button:hover
+	</style>
+    </head>
+	<body>
+	<h1>Замовлення техніки</h1>
+	<form align="center">
+	<fieldset>
+	<legend>
+	Оберіть товар
+	</legend>
+	<select  multiple size "5">
+	<option value="element1">Телевізор </option>
+	<option value="element2">Ноутбук</option>
+	<option value="element3">Холодильник</option>
+	<option disabled value="element4">  Мікрохвильова піч</option>
+	<option value="element5">Електрична плита</option>
+	</select>
+	<br>Оберіть марку:<br>
+	<input type="radio" name="w"value="1">Samsung
+	<input type="radio"name="w"value="2" checked>LG
+	<input type="radio"name="w"value="3">Gorenje
+	<input type="radio"name="w"value="4">Mastercool
+	Оберіть вид дому:
+	<br><input type="checkbox"name="t"value="1"checked>Квартира
+	<input type="checkbox"name="t"value="2">Будинок
+	<input type="checkbox"name="t"value="3">Дачний будинок
+	<br>Оберіть доставку:<br>
+	<input type="radio"name="k"value="1">Кур'єр
+	<input type="radio"name="k"value="2">Пошта
+	<input type="radio"name="k"value="3">Самовивіз
+	<br>Оберіть країну виготовлення:
+	<br><select>
+	<option value="1">Україна</option>
+	</select>
+	<br><input type="button"value="Замовити"class="o">
+	<input type="reset"value="Відмовитись"class="w">
+	</fieldset>
+	</form>
+    </body>
+    </html>
